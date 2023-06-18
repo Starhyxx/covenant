@@ -1,7 +1,10 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body{
 
     background-color: black;
+    font-family: 'Rubik', sans-serif;
 
 }
 .container {
@@ -86,6 +89,11 @@ span {
 .start-button:hover {
     background-color: #45a049;
 }
+
+.start-button:focus {
+    outline: none;
+}
+
 
 .start-button:focus {
     outline: none;
